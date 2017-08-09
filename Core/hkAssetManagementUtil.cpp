@@ -7,6 +7,7 @@
  */
 #include "hkAssetManagementUtil.h"
 #include <Common/Base/System/Io/IStream/hkIStream.h>
+#include <Common/Base/Container/String/hkStringBuf.h>
 
 #define NEED_PLATFORM_SPECIFIC_EXTENSION
 

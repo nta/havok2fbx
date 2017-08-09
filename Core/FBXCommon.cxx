@@ -11,6 +11,8 @@
 
 #include "FBXCommon.h"
 
+#if 0
+
 #ifdef IOS_REF
 	#undef  IOS_REF
 	#define IOS_REF (*(pManager->GetIOSettings()))
@@ -223,3 +225,5 @@ bool LoadScene(FbxManager* pManager, FbxDocument* pScene, const char* pFilename)
 
     return lStatus;
 }
+
+#endif
